@@ -8,7 +8,11 @@ body, html {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.githubtextlink {
+  text-decoration: none;
+  font-weight: normal;
+  color: black;
+}
 .navigation {
    
     /*
@@ -89,8 +93,8 @@ body, html {
   }
 
   #content div {
-    overflow: auto;
-    height: 100vh;
+    overflow: visible;
+    min-height: 100vh;
     /* align the text in the middle */
     
     
@@ -162,12 +166,11 @@ body, html {
     box-shadow: 0 0 8px black;
   }
   @media all and (max-width: 50em) {
+   
     #section1 {
       display: flex;
       flex-direction: column;
-      padding: 150px;
-      padding-top: 1em;
-      padding-bottom: 1em;
+      padding: 50px;
       text-align: center;
       
     }
@@ -176,11 +179,23 @@ body, html {
       margin-right: auto;
     }
     p {
-      width: fixed;
+      width: 75%;
     }
-    #navigation {
-      padding-left: auto;
-      padding-right: auto;
+    .navigation {
+     padding-right: 125px;
+     padding-left: 75px;
+      min-width: 50em;
+    }
+    #section2 {
+      display: flex;
+      flex-direction: column;
+    }
+    #section3 {
+      display: flex;
+      flex-direction: column;
+    }
+    #content div {
+      overflow: auto;
     }
   }
     
