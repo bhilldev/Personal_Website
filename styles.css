@@ -8,11 +8,15 @@ body, html {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+<<<<<<< HEAD
 .githubtextlink {
   text-decoration: none;
   font-weight: normal;
   color: black;
 }
+=======
+
+>>>>>>> 702053f3d0dbbddfe4d348d380769d51e5d4e931
 .navigation {
    
     /*
@@ -89,12 +93,19 @@ body, html {
   #content {
     margin-top: 50px;
     
+<<<<<<< HEAD
     
   }
 
   #content div {
     overflow: visible;
     min-height: 100vh;
+=======
+  }
+
+  #content div {
+    height: 100vh;
+>>>>>>> 702053f3d0dbbddfe4d348d380769d51e5d4e931
     /* align the text in the middle */
     
     
@@ -123,8 +134,13 @@ body, html {
   }
    p {
     grid-column: 2;  
+<<<<<<< HEAD
     margin: 15%;
     position: relative;
+=======
+    margin-right: 15%;
+    margin-top: 20%;
+>>>>>>> 702053f3d0dbbddfe4d348d380769d51e5d4e931
   }
   
 
@@ -166,11 +182,20 @@ body, html {
     box-shadow: 0 0 8px black;
   }
   @media all and (max-width: 50em) {
+<<<<<<< HEAD
    
     #section1 {
       display: flex;
       flex-direction: column;
       padding: 50px;
+=======
+    #section1 {
+      display: flex;
+      flex-direction: column;
+      padding: 150px;
+      padding-top: 1em;
+      padding-bottom: 1em;
+>>>>>>> 702053f3d0dbbddfe4d348d380769d51e5d4e931
       text-align: center;
       
     }
@@ -179,6 +204,7 @@ body, html {
       margin-right: auto;
     }
     p {
+<<<<<<< HEAD
       width: 75%;
     }
     .navigation {
@@ -196,6 +222,13 @@ body, html {
     }
     #content div {
       overflow: auto;
+=======
+      width: fixed;
+    }
+    #navigation {
+      padding-left: auto;
+      padding-right: auto;
+>>>>>>> 702053f3d0dbbddfe4d348d380769d51e5d4e931
     }
   }
     
