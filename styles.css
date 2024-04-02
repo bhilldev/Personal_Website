@@ -39,7 +39,7 @@ body, html {
      
   }
   .sectionlink0 {
-    margin-right: 50%;
+    margin-right: 60%;
     font: Helvetica;
     font-size: 1.5em;
     color: #bbe1fa;
@@ -101,7 +101,8 @@ body, html {
 
   #section1 {
     display: grid;
-    grid-template-columns: 40% auto;    
+    grid-template-columns: 60% auto;
+    grid-template-rows: 50% 50%;
     align-items: center;
     font-size: 1.75em;
     color: #bbe1fa;
@@ -137,9 +138,9 @@ body, html {
   }
   section {
     width: 375px;
-    height: 550px;
-    margin: 50px;
-    padding: 10px;
+    height: 600px;
+    margin: 99px;
+    padding: 20px;
     font-size: 1.25em;
     background-color: #bb323f;
     box-shadow: 0 0 8px 0 black;
